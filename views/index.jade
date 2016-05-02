@@ -1,5 +1,65 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	//- .navigation-bar
+	//- 	.navigatiob-bar-left
+	//- 		a(href='/')
+	//- 			img(src='images/logo.png')
+	//- 	.navigation-bar-right
+	//- 		button.btn.btn-primary(type='submit') Log In
+	//- 		button.btn.btn-primary(type='submit') Register
+	nav.navbar.navbar-default.navbar-fixed-top
+		.contaner-fluid
+			.col-sm-6.headerImg
+				a(href='/')
+					img(src='images/header.jpeg')
+			.col-sm-6.buttonsToFloat
+				button.btn.btn-primary(type='submit') Log In
+				button.btn.btn-primary(type='submit') Register
+		.row
+			.col-sm-12.description
+				h1 A better way to enjoy your favorite cigar
+				h4 Freshly rolled cigars delivered weekly to your door
+	.container-fluid
+		.row
+			.col-sm-12.how-it-works
+				h1 How it works
+			.col-sm-12.arrow-holder
+				.arrow-down
+		.row
+			.col-sm-12.steps.step-one
+				h1.title We pick out the highest quality leafs
+				p Each leaf is hand selected
+				p Each cigar is sorted by color, strength, <br>texture, resiliency and size
+				p After the tobacco is processed, a <br>“blend” is prepared for each cigar roller.<br> Each blend has a unique flavor that is <br> produced by the types of tobacco leaves used.
+				img.rolling(src='/images/handMade.jpg')
+			.col-sm-12.arrow-holder
+				.arrow-down
+		.row
+			.col-sm-12.steps.step-two
+				h1 We package and ship the cigars
+				p Each cigar is tediously inspected under our quality control <br> division to ensure the best quality or nothing at all.
+				p Storing cigars in the seasoning rooms, the cigars are in either <br>cedar bins, cedar drawers, or cedar shelves. The temperature and <br>humidity conditions are kept at an ideal level for the cigars to be stored <br>for three weeks to a year. The longer the cigars remain in the seasoning<br> room, the better they will be.
+				p Every cigar box is transported in climate controlled trucks
+				img.qc(src='/images/qc.jpg')
+			.col-sm-12.arrow-holder
+				.arrow-down
+		.row
+			.col-sm-12.steps.step-three
+				h1 You enjoy quality cigars at a discounted price!
+				p The cigars taste delicious!
+				p You want more cigars!
+				div.smokers
+					img.smoking(src='/images/smoking.jpg')
+					img.female_smoking(src='/images/female_smoking.jpg')
+			.col-sm-12.arrow-holder
+				.arrow-down
+		.row
+			.col-sm-12.steps.get-started
+				a(href='/register')
+					button.btn.btn-primary(type='button') Get Started
+
+
+
+
+

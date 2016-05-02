@@ -1,0 +1,85 @@
+// .navigation-bar{
+// 	height: 80px;
+// 	background-color: #284741;
+// 	position: fixed;
+// 	top: 0;
+// 	z-index: 100;
+// 	width: 100%;
+// 	float: left;
+// 	.navigation-bar-left{
+// 		float: left;
+// 		width: 50%;
+// 	}
+// 	.navigation-bar-right{
+// 		float: left;
+// 		width: 50%;
+// 	}
+// }
+.navbar{
+	background-color: #284741;
+}
+.headerImg{
+	max-width: 20%;
+}
+.buttonsToFloat{
+	float: right;
+	margin-right: -35%;
+}
+.step-one{
+	background-color: #ecffb3;
+	margin-top: 6%;
+}
+.description{
+	color: white;
+	text-align: center;
+	margin-top: -6%;
+}
+.step-two{
+	text-align: right;
+	background-color: #cccc00;
+	margin-top: 1%;
+}
+.step-three{
+	text-align: center;
+	background-color: #86b300;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.get-started{
+	text-align: center;
+}
+.footer{
+	margin-top: 2%;
+}
+.rolling{
+	max-width: 24%;
+    position: absolute;
+    top: 8%;
+    right: 6%;
+}
+.colors{
+	max-width: 25%;
+	position: absolute;
+	top: 10%;
+	left: 4%;
+}
+.qc{
+	max-width: 28%;
+    position: absolute;
+    top: 17%;
+    left: 6%;
+}
+.room{
+	max-width: 18%;
+	position: absolute;
+	top: 17%;
+	right: 4%;
+}
+.smoking{
+}
+.female_smoking{
+	max-width: 25%;
+}
+.smokers{
+	margin-bottom: 2%;
+}

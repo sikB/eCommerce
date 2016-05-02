@@ -1,8 +1,100 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* line 1, ../../Compass/sass/_base.scss */
+img {
+  max-width: 100%;
 }
 
-a {
-  color: #00B7FF;
+/* line 18, ../../Compass/sass/_home.scss */
+.navbar {
+  background-color: #284741;
+}
+
+/* line 21, ../../Compass/sass/_home.scss */
+.headerImg {
+  max-width: 20%;
+}
+
+/* line 24, ../../Compass/sass/_home.scss */
+.buttonsToFloat {
+  float: right;
+  margin-right: -35%;
+}
+
+/* line 28, ../../Compass/sass/_home.scss */
+.step-one {
+  background-color: #ecffb3;
+  margin-top: 6%;
+}
+
+/* line 32, ../../Compass/sass/_home.scss */
+.description {
+  color: white;
+  text-align: center;
+  margin-top: -6%;
+}
+
+/* line 37, ../../Compass/sass/_home.scss */
+.step-two {
+  text-align: right;
+  background-color: #cccc00;
+  margin-top: 1%;
+}
+
+/* line 42, ../../Compass/sass/_home.scss */
+.step-three {
+  text-align: center;
+  background-color: #86b300;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/* line 48, ../../Compass/sass/_home.scss */
+.get-started {
+  text-align: center;
+}
+
+/* line 51, ../../Compass/sass/_home.scss */
+.footer {
+  margin-top: 2%;
+}
+
+/* line 54, ../../Compass/sass/_home.scss */
+.rolling {
+  max-width: 24%;
+  position: absolute;
+  top: 8%;
+  right: 6%;
+}
+
+/* line 60, ../../Compass/sass/_home.scss */
+.colors {
+  max-width: 25%;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+}
+
+/* line 66, ../../Compass/sass/_home.scss */
+.qc {
+  max-width: 28%;
+  position: absolute;
+  top: 17%;
+  left: 6%;
+}
+
+/* line 72, ../../Compass/sass/_home.scss */
+.room {
+  max-width: 18%;
+  position: absolute;
+  top: 17%;
+  right: 4%;
+}
+
+/* line 80, ../../Compass/sass/_home.scss */
+.female_smoking {
+  max-width: 25%;
+}
+
+/* line 83, ../../Compass/sass/_home.scss */
+.smokers {
+  margin-bottom: 2%;
 }

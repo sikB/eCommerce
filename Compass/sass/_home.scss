@@ -1,25 +1,11 @@
-// .navigation-bar{
-// 	height: 80px;
-// 	background-color: #284741;
-// 	position: fixed;
-// 	top: 0;
-// 	z-index: 100;
-// 	width: 100%;
-// 	float: left;
-// 	.navigation-bar-left{
-// 		float: left;
-// 		width: 50%;
-// 	}
-// 	.navigation-bar-right{
-// 		float: left;
-// 		width: 50%;
-// 	}
-// }
+body{
+	font-family: 'Courgette', cursive;
+}
 .navbar{
 	background-color: #284741;
 }
 .headerImg{
-	max-width: 20%;
+	max-width: 11%;
 }
 .buttonsToFloat{
 	float: right;

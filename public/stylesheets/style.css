@@ -108,3 +108,9 @@ body {
 .registration {
   margin-top: 10%;
 }
+
+/* line 75, ../../Compass/sass/_home.scss */
+.failure {
+  color: red;
+  text-align: center;
+}

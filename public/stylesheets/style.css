@@ -27,7 +27,7 @@ body {
 /* line 14, ../../Compass/sass/_home.scss */
 .step-one {
   background-color: #ecffb3;
-  margin-top: 6%;
+  margin-top: 11%;
 }
 
 /* line 18, ../../Compass/sass/_home.scss */
@@ -102,4 +102,9 @@ body {
 /* line 69, ../../Compass/sass/_home.scss */
 .smokers {
   margin-bottom: 2%;
+}
+
+/* line 72, ../../Compass/sass/_home.scss */
+.registration {
+  margin-top: 10%;
 }

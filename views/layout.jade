@@ -6,6 +6,20 @@ html
 		link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Molle:400italic|Courgette')
 		link(rel='stylesheet', href='/stylesheets/style.css')
 	body
+		nav.navbar.navbar-default.navbar-fixed-top
+			.contaner-fluid
+				.col-sm-6.headerImg
+					a(href='/')
+						img(src='images/logo2.png')
+				.col-sm-6.buttonsToFloat
+					a(href='/logIn')
+						button.btn.btn-primary(type='submit') Log In
+					a(href='/register')
+						button.btn.btn-primary(type='submit') Register
+			.row
+				.col-sm-12.description
+					h1 A better way to enjoy your favorite cigar
+					h4 Freshly rolled cigars delivered weekly to your door
 		block content
 		.footer.col-sm-12.text-center
 			p &copy SikMarketing 2016 | Bogdan Sikhovski

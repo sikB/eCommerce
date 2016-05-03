@@ -1,0 +1,64 @@
+extends layout
+
+block content
+	.container-fluid.orderPage
+		.row
+			.col-sm-12.orderHeading
+				h1.orderText Tell us what you want
+				h4 Shipping is free and you can skip any week
+		.row
+			.col-sm-4.quantity.col-sm-offset-2
+				h1 Single Weekly Plan
+				h3 For the smoker who enjoys cigars alone
+				img.five(src='/images/colors.jpeg')
+				p Cigars a day: 1
+				p Price per Cigar: $4
+				p Weekly total: $20
+				button.btn.btn-success(type='button') Order this Deal
+			.col-sm-4.bulk
+				h1 Party Weekly Plan
+				h3 For the smoker who likes to share with friends
+				img.bulker(src='/images/bulker.jpg')
+				p Cigars a day: 4
+				p Price per Cigar: $3
+				p Weekly total: $60
+				button.btn.btn-success(type='button') Order this Deal
+		.row
+			.col-sm-12.customHeader
+				h1 Or choose a custom order!
+		.row
+			.col-sm-12.customOrder
+				h3 Choose the flavor
+				div.form-group.col-sm-4.col-sm-offset-4
+					select.form-control.selector
+						option Dark/Robust
+						option Medium
+						option Light
+			.col-sm-12
+				h3 Choose the length of the smoke
+				div.form-group.col-sm-4.col-sm-offset-4
+					select.form-control
+						option <1hr
+						option 45min - 1hr
+						option >45min
+			.col-sm-12
+				h3 Choose shape
+				div.form-group.col-sm-4.col-sm-offset-4
+					select.form-control
+						option Corona
+						option Petit Corona
+						option Churchill
+						option Robusto
+						option Corona Gorda
+						option Double Corona
+						option Panetela
+						option Lonsdale
+						option Pyramid
+						option Belicoso
+						option Torpedo
+						option Perfecto
+						option Culebra
+
+
+
+

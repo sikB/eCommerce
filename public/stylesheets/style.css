@@ -114,3 +114,31 @@ body {
   color: red;
   text-align: center;
 }
+
+/* line 79, ../../Compass/sass/_home.scss */
+.orderPage {
+  text-align: center;
+}
+
+/* line 82, ../../Compass/sass/_home.scss */
+.orderHeading {
+  margin-top: 10%;
+  padding-bottom: 3%;
+}
+
+/* line 86, ../../Compass/sass/_home.scss */
+.quantity {
+  border: 1px solid black;
+  padding-bottom: 3%;
+}
+
+/* line 90, ../../Compass/sass/_home.scss */
+.bulk {
+  border: 1px solid black;
+  padding-bottom: 3%;
+}
+
+/* line 94, ../../Compass/sass/_home.scss */
+.bulker {
+  width: 88%;
+}

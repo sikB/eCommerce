@@ -142,3 +142,19 @@ body {
 .bulker {
   width: 88%;
 }
+
+/* line 97, ../../Compass/sass/_home.scss */
+.userName {
+  color: white;
+  margin-top: 1%;
+}
+
+/* line 101, ../../Compass/sass/_home.scss */
+.logIn {
+  margin-top: 15%;
+}
+
+/* line 104, ../../Compass/sass/_home.scss */
+.logInHeader {
+  text-align: center;
+}

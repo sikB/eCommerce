@@ -12,10 +12,19 @@ html
 					a(href='/')
 						img(src='images/logo2.png')
 				.col-sm-6.buttonsToFloat
-					a(href='/logIn')
-						button.btn.btn-primary(type='submit') Log In
-					a(href='/register')
-						button.btn.btn-primary(type='submit') Register
+					if page == 'register'
+						a(href='/logIn')
+							button.btn.btn-primary(type='submit') Log In
+					if page == 'home'
+						a(href='/register')
+							button.btn.btn-primary(type='submit') Register
+						a(href='/logIn')
+							button.btn.btn-primary(type='submit') Log In
+					if username
+						p.userName Welcome #{username}
+					if page == 'order'
+						p.userName Welcome #{username}
+
 			.row
 				.col-sm-12.description
 					h1 A better way to enjoy your favorite cigar
